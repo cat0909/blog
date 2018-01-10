@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'article',
+    'main',
 ]
 
 MIDDLEWARE = [
@@ -76,9 +78,9 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'blogDB',
-        'USER': 'blog',
-        'PASSWORD': 'blog',
+        'NAME': 'bookstoreDB',
+        'USER': 'bookstore',
+        'PASSWORD': 'bookstore',
         'HOST': 'localhost',
         'PORT': '',
     }
